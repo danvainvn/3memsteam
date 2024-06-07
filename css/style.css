@@ -96,6 +96,14 @@ body {
   text-transform: uppercase;
 }
 
+.custom_nav-container .navbar-nav .nav-item .nav-link:hover {
+  color: #6bb7be;
+}
+
+.custom_nav-container .navbar-nav .nav-item.active .nav-link {
+  color: #f89646;
+}
+
 a,
 a:hover,
 a:focus {
@@ -206,6 +214,14 @@ a:focus {
   color: #151515;
   margin-right: 25px;
   text-transform: uppercase;
+}
+
+.quote_btn-container.active a {
+  color: #f89646;
+}
+
+.quote_btn-container a:hover {
+  color: #6bb7be;
 }
 
 .quote_btn-container a span {
